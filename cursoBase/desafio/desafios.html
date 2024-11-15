@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contadores desafios aula 3</title>
+</head>
+<body>
+
+  <h1>Veja os números no Console</h1>
+
+  <!-- Desafio 1: Contador de 1 a 10 -->
+  <h2>1. Contador de 1 a 10:</h2>
+  <script>
+    let contador1 = 1; // Contador diferente para este desafio
+    while (contador1 <= 10) {
+      console.log('Número (1 a 10): ' + contador1); // Exibe o número no console
+      contador1++; // Incrementa o contador
+    }
+  </script> 
+
+  <!-- Desafio 2: Contador de 10 a 0 -->
+  <h2>2. Contador de 10 a 0:</h2>
+  <script>
+    let contador2 = 10; // Contador diferente para este desafio
+    while (contador2 >= 0) {
+      console.log('Número (10 a 0): ' + contador2); // Exibe o número no console
+      contador2--; // Decrementa o contador
+    }
+  </script>
+
+  <!-- Desafio 3: Contagem Regressiva -->
+  <h2>3. Contagem Regressiva (do número informado até 0):</h2>
+  <script>
+    let numeroRegressivo = prompt('Escolha um número para a contagem regressiva:');
+    
+    // Converte o valor do número para um inteiro
+    numeroRegressivo = Number(numeroRegressivo);
+
+    if (!isNaN(numeroRegressivo)) {
+      let contador3 = numeroRegressivo; // Contador diferente para este desafio
+      while (contador3 >= 0) {
+        console.log('Contagem Regressiva: ' + contador3); // Exibe o número no console
+        contador3--; // Decrementa o contador
+      }
+    } else {
+      console.log('Por favor, insira um número válido.');
+    }
+  </script>
+
+  <!-- Desafio 4: Contagem Progressiva -->
+  <h2>4. Contagem Progressiva (do 0 até o número informado):</h2>
+  <script>
+    let numeroProgressivo = prompt('Escolha um número para a contagem progressiva:');
+    
+    // Converte o valor do número para um inteiro
+    numeroProgressivo = Number(numeroProgressivo);
+    let contador4 = 0; // Contador diferente para este desafio
+
+    if (!isNaN(numeroProgressivo)) {
+      while (contador4 <= numeroProgressivo) {
+        console.log('Contagem Progressiva: ' + contador4); // Exibe o número no console
+        contador4++; // Incrementa o contador
+      }
+    } else {
+      console.log('Por favor, insira um número válido.');
+    }
+  </script>
+
+</body>
+</html>
