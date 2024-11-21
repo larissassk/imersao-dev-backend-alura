@@ -26,7 +26,7 @@ A imersão vai aprofundar os conceitos de programação com foco em desenvolvime
 ### Conteúdos:
 - **Aula 01**: Desvendando APIs e Servidores (Início em 18/11) ✅
 - **Aula 02**: Criando e Estruturando APIs com GET e Banco de Dados (Início em 19/11) ✅
-- **Aula 03**: Integração com MongoDB e Refatoração
+- **Aula 03**: Integração com MongoDB e Refatoração ✅
 - **Aula 04**: Armazenamento e Upload de Imagens
 - **Aula 05**: Publicação na Google Cloud e Integração com Google Gemini
 
