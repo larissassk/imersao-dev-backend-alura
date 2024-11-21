@@ -5,7 +5,6 @@ Este repositório contém o conteúdo dos Cursos Base e da **Imersão Dev Back-E
 ## Índice
 - [Curso Base](#curso-base)
 - [Imersão Dev Back-End](#imersão-dev-back-end)
-- [Materiais Complementares](#materiais-complementares)
 
 ## Curso Base - Lógica de Programação com JavaScript
 
@@ -20,7 +19,7 @@ Este curso introdutório aborda conceitos fundamentais de programação: ✅conc
 
 ---
 
-## Imersão Dev Back-End
+# Imersão Dev Back-End
 
 A imersão vai aprofundar os conceitos de programação com foco em desenvolvimento Back-End usando Node.js e integrações avançadas.
 
@@ -32,9 +31,6 @@ A imersão vai aprofundar os conceitos de programação com foco em desenvolvime
 - **Aula 05**: Publicação na Google Cloud e Integração com Google Gemini
 
 ---
-
-## Aulas da Imersão
-
 ### **Aula 1 - Configuração do Ambiente e API Key**
 - **Objetivo**: Configuração do ambiente de desenvolvimento e geração da API Key para a API do Gemini.
 - **Etapas**:
@@ -61,15 +57,16 @@ A imersão vai aprofundar os conceitos de programação com foco em desenvolvime
      - Configuração final do MongoDB para rodar no Atlas.
 
 ---
-
-## Materiais Complementares
-- [Google Gemini](https://gemini.google.com): Ferramenta para simulação e mock de dados.
-- [MongoDB Atlas](https://www.mongodb.com/atlas): Plataforma para hospedar o banco de dados MongoDB.
-- [Guia de Mergulho da Imersão Dev Back-End](https://imersao.dev/backend/guia): Documentação oficial.
-- [Repositório de Referência](https://github.com): Código do projeto para consulta.
-
+### **Aula 3 - Integração com MongoDB e Refatoração**
+- **Objetivo**: Conectar a API ao MongoDB e refatorar o código para otimizar a estrutura.  
+- **Etapas**:
+  1. Configurar Cluster, Database e coleção no **MongoDB Atlas**.
+  2. Criar variáveis de ambiente para armazenar a string de conexão.
+  3. Estabelecer conexão com o banco de dados.
+  4. Atualizar a lógica dos endpoints para buscar dados diretamente do MongoDB.
 
 ---
+
 
 ## Instrutores da Alura nessa Imersão: 
 - **Juliana Amoasei**: Instrutora de JavaScript na Alura.  
